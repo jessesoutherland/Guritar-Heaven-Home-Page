@@ -1,7 +1,7 @@
 body{
     font-size: 67.5%;
     font-family: Tahoma, Geneva, san-serif;
-    background: white url(Store_Front\00_Assets\concert.jpg) no-repeat fixed top center;
+    background-image: url(00_Assets/concert.jpg);
     padding: 0;
     margin: 0;
     -webkit-backdrop-size: 100% 100%;
@@ -10,7 +10,7 @@ body{
     -o-background-size: 100% 100%;
 }
 h1{
-    color: Grey;
+    color: #d89415;
     font-size: 5.0em;
     margin: 0.5em 0 0.5em 0;
     padding: 0 0 0 15px;
@@ -61,7 +61,7 @@ hr{
 header{
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
-    background:black url(Store_Front\00_Assets\main.jpg) center 0px;
+    background: url(00_Assets/main.jpg) center 0px;
     
 }
 header h1{
@@ -115,7 +115,7 @@ section#sidebar{
     float: right;
     position: relative;
     display: block;
-    /* background-color: linear-gradient(to right grey , white); */
+    background: #d89415;
     margin: 1.5em 0 3.0em 1.5em;
     padding: 1.7em 0.5em 2.0em 1.7em;
     border-left: black solid 10px;
@@ -134,7 +134,7 @@ section div.panel{
     width: 250px;
     margin: 0 0.5em 2.0em 0.5em;
     padding: 1.0em;
-    background-color:#B0C4DE;
+    background-color:#d89415;
     border: #ccc solid 1px;
     border-radius: 3em;
 }
@@ -142,7 +142,7 @@ section div.panel img.category{
     width: 100%;
 }
 footer{
-    background-color: #ff6a00;
+    background-color: #d89415;
     height: 25px;
     font-size: 2em;
     color: black;
