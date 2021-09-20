@@ -100,10 +100,6 @@ nav#utilityMenu{
     padding: 0.35em;
     height: 1.3em;
 }
-nav#utilityMenu li{
-    padding: 0 0.25em 0 0.2em;
-    vertical-align: middle;
-}
 nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
 nav#utilityMenu li a:hover {background-color: transparent;}
 nav#utilityMenu ul li input#search{
